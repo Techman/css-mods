@@ -1,0 +1,35 @@
+/* IRCCloud-Calibri: A font style
+ * 
+ * I don't think I'll be uploading this to userstyles
+ * 
+ * You need the Calibri font to be installed on your computer for this to work. If not,
+ * the sans-serif font chosen by your computer will be used.
+ *  
+ * Right now this is a WIP - The font is a little small so I will have to tweak the font size a bit.
+ */
+
+@-moz-document domain("irccloud.com"), domain("www.irccloud.com") {
+body {
+  font-family: Calibri, sans-serif!important;
+}
+
+td.nickcell a.nick, td.inputcell textarea, div.log div.messageRow, div.log div.me a.user, div.log div.me a.server {
+  font-family: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+span.mode_symbol, span.mode_pill {
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
+
+textarea {
+  font-family: inherit;
+}
+}

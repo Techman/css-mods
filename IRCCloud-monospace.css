@@ -1,0 +1,25 @@
+@-moz-document domain("irccloud.com"), domain("www.irccloud.com") {
+body {
+  font-family: monospace!important;
+}
+
+td.nickcell a.nick, td.inputcell textarea, div.log div.messageRow, div.log div.me a.user, div.log div.me a.server {
+  font-family: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+span.mode_symbol, span.mode_pill {
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
+
+textarea {
+  font-family: inherit;
+}
+}

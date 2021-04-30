@@ -1,0 +1,17 @@
+/* Posted to http://userstyles.org/styles/94135/hide-disqus-loading-animation
+ * 
+ * The following code below hides the loading animation for all Disqus 2012 ("new Disqus") websites. This code
+ * can break at any time, and if it does I would appreciate it if you would contact me by emailing
+ * michael@techmansworld.com
+ *
+ * This style is intended to be applied across all sites with Disqus installed. If you
+ * wish for this CSS mod to be narrowed down to only a certain website, feel free to
+ * let me know.
+ *
+ * Btw - Don't remove the next commented set below
+ */
+/* i really want this to be global */
+
+#disqus_thread div {
+  display: none!important;
+}
