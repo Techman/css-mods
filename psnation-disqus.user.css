@@ -1,0 +1,9 @@
+/* Posted at http://userstyles.org/styles/92468/psnation-disqus-fix */
+
+@-moz-document domain("psnation.org"),
+domain("psnation.com") {
+  #disqus_thread {
+    background-color: transparent !important;
+    padding-top: 1em !important;
+  }
+}

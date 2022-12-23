@@ -1,8 +1,0 @@
-/* IRCCloud-HideLimitsBanner: A CSS style to hide the really, really annoying red upgrade banner on the sidebar
- * 
- */
-@-moz-document domain("irccloud.com"), domain("www.irccloud.com") {
-#sidebar #limits {
-  display: none!important;
-}
-}
