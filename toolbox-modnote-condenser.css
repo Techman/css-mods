@@ -4,7 +4,7 @@
 @description  Replace all Mod Note labels with "NN", matching the look when note is availabile. The "NN" is colored based on most recent note.
 @author       Michael Hazell
 @homepageURL  https://github.com/Techman
-@updateURL
+@updateURL    https: //raw.githubusercontent.com/Techman/css-mods/master/toolbox-modnote-condenser.css
 @license      GPL-3.0-or-later
 ==/UserStyle== */
 @-moz-document domain("reddit.com") {
