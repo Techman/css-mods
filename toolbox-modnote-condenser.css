@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name         r/Toolbox Mod Note Condenser
+@version      1.0.0
+@description  Replace all Mod Note labels with "NN", matching the look when note is availabile. The "NN" is colored based on most recent note.
+@author       Michael Hazell
+@homepageURL  https://github.com/Techman
+@updateURL
+@license      GPL-3.0-or-later
+==/UserStyle== */
+@-moz-document domain("reddit.com") {
+    .tb-modnote-badge {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .tb-modnote-badge b {
+        content: "";
+        visibility: hidden;
+        font-size: 0px;
+    }
+
+    .tb-modnote-badge b:after {
+        content: "NN";
+        visibility: visible;
+        font-size: 10px;
+    }
+}
