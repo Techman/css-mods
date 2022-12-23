@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name         r/Toolbox Mod Note Condenser
+@namespace github.com/openstyles/stylus
 @version      1.0.0
 @description  Replace all Mod Note labels with "NN", matching the look when note is availabile. The "NN" is colored based on most recent note.
 @author       Michael Hazell
 @homepageURL  https://github.com/Techman
-@updateURL    https: //raw.githubusercontent.com/Techman/css-mods/master/toolbox-modnote-condenser.css
+@updateURL    https://raw.githubusercontent.com/Techman/css-mods/master/toolbox-modnote-condenser.css
 @license      GPL-3.0-or-later
 ==/UserStyle== */
 @-moz-document domain("reddit.com") {
