@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         r/Toolbox Mod Note Condenser
 @namespace github.com/openstyles/stylus
-@version      1.0.0
+@version      1.0.1
 @description  Replace all Mod Note labels with "NN", matching the look when note is availabile. The "NN" is colored based on most recent note.
 @author       Michael Hazell
 @homepageURL  https://github.com/Techman
@@ -9,12 +9,8 @@
 @license      GPL-3.0-or-later
 ==/UserStyle== */
 @-moz-document domain("reddit.com") {
-    .tb-modnote-badge {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
 
+    /* NN functionality */
     .tb-modnote-badge b {
         content: "";
         visibility: hidden;
@@ -26,4 +22,13 @@
         visibility: visible;
         font-size: 10px;
     }
+
+    /* This is to condense the size of notes. Keeping here in case there is a desire for behavior change. */
+    /* .tb-modnote-badge b {
+        display: inline-block;
+        max-width: 40em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    } */
 }
