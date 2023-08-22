@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        Glowing-Bear Compact Buffer List
+@namespace   github.com/openstyles/stylus
+@version     1.0.0
+@description Makes the buffer list more compact.
+@author      Michael Hazell
+@homepageURL https://github.com/Techman
+@updateURL   https://raw.githubusercontent.com/Techman/css-mods/master/glowing-bear-compact-buffer-list.user.css
+@license GPL-3.0-or-later
+==/UserStyle== */
+@-moz-document domain("glowing-bear.org") {
+    .nav li a {
+        padding: 5px 15px;
+    }
+}
