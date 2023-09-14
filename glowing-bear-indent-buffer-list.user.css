@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        Glowing-Bear Indent Buffer List
+@namespace   github.com/openstyles/stylus
+@version     1.0.0
+@description Indent channels in the buffer list. Works when "Hierarchical buffer view" is disabled in G-B settings.
+@author      Michael Hazell
+@homepageURL https://github.com/Techman
+@updateURL   https://raw.githubusercontent.com/Techman/css-mods/master/glowing-bear-indent-buffer-list.user.css
+@license GPL-3.0-or-later
+==/UserStyle== */
+@-moz-document domain("glowing-bear.org") {
+    #sidebar ul.indented li.indent span.buffername {
+        padding-left: 10px;
+    }
+}
